@@ -1,0 +1,31 @@
+CSS3: Casacading Style SHeets
+- As styling tags were phased out of html, styling was done with style attribute
+- Adding style directly to html like <h1 style="color:blue">......</h1>
+- CSS defined the generic rules that acn apply to multiple elements
+- Brackets and semicolons are very imoprtatn
+
+* Internal Style Sheet
+- Styling is defined within <head>
+- Rules are defined with <style>
+- Style are appllied to an elements in that file
+----> But actually when you designed complex code, so using and debug is not possible
+The solution is External Style Sheet
+* External Style Sheet
+- It's just like we using in the internal 
+- A link to the style sheet is put in the head section
+<link rel="stylesheet" href="style.css"> 
+- Style are applied to all elements with the name we Adding
+
+* Css Model
+- Browser default
+- External style sheet
+- Internal Style sheet
+- Inline style sheet (inside an HTML element)
+
+*Rule Precedence
+- What if one selector is defined in two external files?
+    + the rule from the most recent file have predcedentec 
+- What if one selector has more than one rule in the same file
+    + the code will use the what is saw last
+
+
